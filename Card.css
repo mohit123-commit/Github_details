@@ -1,0 +1,47 @@
+.container{
+    max-width: 2560px;
+    display: flex;
+}
+
+.left{
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 700px;
+}
+.right{
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 50%;
+    border-radius: 40px;
+    background-color: black;
+    position: relative;
+}
+.i1 img{
+    height: 40%;
+    width: 50%;
+    position:absolute;
+    top: 30%;
+    right: 30%;
+}
+.i2 img{
+    height: 25%;
+    width: 30%;
+    position:absolute;
+    top: 5%;
+    left: -10%;
+}
+.i3 img{
+    height: 25%;
+    width: 30%;
+    position:absolute;
+    top: -10%;
+    right: 10%;
+}

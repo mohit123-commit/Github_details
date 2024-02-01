@@ -1,0 +1,51 @@
+.container{
+    max-width: 2560px;
+    /* border: 2px solid saddlebrown; */
+}
+.full{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    /* border: 2px8 solid blue; */
+    /* height: 100vh; */
+}
+.header{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    
+}
+.medium{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.Avatar-card{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 350px;
+    /* border-radius: 30px; */
+    position: relative;
+}
+.Avatar-card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.avatar-side {
+    position: absolute;
+    height: 70px;
+    top: 5%;
+    right: 8%;
+}
+.avatar-bot{
+    position: absolute;
+    bottom: 5%;
+    padding: 20px;
+    /* border: 2px solid black; */
+    background-color: rgb(255 255 255 / 70%);
+    border-radius: 20px;
+    left: 5%;
+    right: 5%;
+    font-size: 20px;
+}
